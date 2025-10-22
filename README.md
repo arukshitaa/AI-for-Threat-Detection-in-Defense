@@ -72,8 +72,25 @@ Since no ready dataset existed for this specific use case, we **built a custom d
 
 ## 📊 Results
 
-![Safe Truck Detection]("C:\Users\ArukshitaDubey\Downloads\Picture1.jpg")
-![Threat Truck Detection]("C:\Users\ArukshitaDubey\Downloads\Picture2.jpg")
+### 1️⃣ Safe Vehicle Detection
+![Safe Truck Detection](results/Picture1.jpg)  
+**Description:** The model correctly identifies a friendly vehicle (Indian Army truck) as `safe_truck`.  
+Green bounding boxes indicate safe/friendly vehicles, ensuring that civilian and allied units are not misclassified as threats.
+
+---
+
+### 2️⃣ Threat Vehicle Detection
+![Threat Truck Detection](results/Picture2.jpg)  
+**Description:** The model detects a hostile vehicle (enemy truck) as `threat_truck`.  
+Red bounding boxes highlight potential threats, enabling real-time situational awareness for defense monitoring.
+
+---
+
+### 3️⃣ Training & Validation Loss
+![Training and Validation Loss](results/Picture3.jpg)  
+**Description:** This graph shows the **training and validation loss** of the YOLOv8 model over epochs.  
+- The decreasing trend indicates proper model convergence.  
+- Minimal gap between training and validation curves shows that the model is **not overfitting**, demonstrating reliable generalization on unseen data.
 
 
 ---
