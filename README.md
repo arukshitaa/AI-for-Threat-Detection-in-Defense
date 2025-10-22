@@ -36,7 +36,7 @@ Since no ready dataset existed for this specific use case, we **built a custom d
 
 ---
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 
 | Category | Tools |
 |-----------|-------|
